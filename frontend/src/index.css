@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./vendor/fonts/fonts.css);
+
+:root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ffffff;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
